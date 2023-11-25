@@ -18,7 +18,7 @@ function event_timer(e)
 								eq.depop_with_timer();
 							end
 						end
-					end				
+					end
 				end
 			);
 	end
@@ -55,7 +55,7 @@ function event_hp(e)
 			if (npc.valid and npc:GetNPCTypeID() == 81166 ) then
 				npc:AddToHateList(e.self:GetHateTop(),1);
 			end
-		end		
+		end
 end
 
 function event_death(e)
